@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[def __str__(self):
+    return ""]]></content>
+    <tabTrigger>magic</tabTrigger>
+    <scope>source.python</scope>
+    <description>__str__</description>
+</snippet>

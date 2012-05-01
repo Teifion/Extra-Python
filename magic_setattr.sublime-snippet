@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[def __setattr__(self, name, value):
+    object.__setattr__(self, name, value)]]></content>
+    <tabTrigger>magic</tabTrigger>
+    <scope>source.python</scope>
+    <description>__setattr__</description>
+</snippet>

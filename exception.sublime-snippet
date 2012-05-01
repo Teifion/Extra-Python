@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[raise Exception("${1:}")]]></content>
+    <tabTrigger>excep</tabTrigger>
+    <scope>source.python</scope>
+    <description>Raise exception</description>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[Exception
+ArithmeticError
+AttributeError
+FloatingPointError
+GeneratorExit
+IOError
+KeyError
+KeyboardInterrupt
+NotImplementedError
+StopIteration
+SystemExit
+TypeError
+ZeroDivisionError]]></content>
+    <tabTrigger>exceptions</tabTrigger>
+    <scope>source.python</scope>
+    <description>Exception list</description>
+</snippet>

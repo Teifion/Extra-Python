@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[${2:True} if ${1:condition} else ${3:False}]]></content>
+    <tabTrigger>ternary</tabTrigger>
+    <scope>source.python</scope>
+    <description>Ternary</description>
+</snippet>

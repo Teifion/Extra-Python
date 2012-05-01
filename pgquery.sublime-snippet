@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[query = """${0:}"""
+try: cursor.execute(query)
+except Exception as e:
+    raise Exception("Database error: %s\nQuery: %s" % (str(e.args[0]).replace("\n",""), query))
+for row in cursor:
+    print(row)]]></content>
+    <tabTrigger>query</tabTrigger>
+    <scope>source.python</scope>
+    <description>PG Query</description>
+</snippet>

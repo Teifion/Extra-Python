@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[re.findall(${1:pattern}, ${2:string}${3:, ${4:flags}})]]></content>
+    <tabTrigger>re</tabTrigger>
+    <scope>source.python</scope>
+    <description>findall</description>
+</snippet>

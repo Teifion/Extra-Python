@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[{${1:k}:${2:v} for $1, $2 in ${3:the_dict.items()}}]]></content>
+    <tabTrigger>{}</tabTrigger>
+    <scope>source.python</scope>
+    <description>Dictionary comprehension</description>
+</snippet>

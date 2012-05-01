@@ -1,0 +1,85 @@
+/*{
+	"scope": "source.python",
+
+	"completions":
+	[
+		{"trigger": "{}", "contents": "{${1:k}:${2:v} for $1, $2 in ${3:the_dict.items()}}", "description": "Dictionary comprehension"},
+		
+		{"trigger": "()", "contents": "(${1:x}.${2:f}() for $1 in ${3:the_list})", "description": "Tuple comprehension"},
+		
+		{"trigger": "[]", "contents": "[${1:x}.${2:f}() for $1 in ${3:the_list}]", "description": "List comprehension"},
+		{"trigger": "[]", "contents": "[${1:x}.${2:f}() for $1 in ${3:the_list} if $1 == ${4:1}]", "description": "List comprehension with if"},
+		
+		{"trigger": "ternary", "contents": "${2:True} if ${1:condition} else ${3:False}", "description": "Ternary operator"}
+		
+		// {"trigger": "fordict", "contents": "for ${1:k}, ${2:v} in ${3:dict}.items():\n\t${0:}", "description": "For each in dictionary"}
+		
+		/*
+		fordict
+		
+		
+		while
+		while ${1:True}:
+		${0:}
+	
+		with
+		with ${1:open('file')} as ${2:f}:
+		${3:pass}${0:}
+		
+		
+		// RE
+		re.search(${1:pattern}, ${2:string}${3:, ${4:flags}})
+		re.findall(${1:pattern}, ${2:string}${3:, ${4:flags}})
+		re.finditer(${1:pattern}, ${2:string}${3:, ${4:flags}})
+		re.split(${1:pattern}, ${2:string}${3:, ${4:maxsplits}})
+		re.sub(${1:pattern}, ${2:repl}, ${3:string}${4:, ${5:count}})
+		
+		// RE FLAGS
+		re.IGNORECASE
+		re.LOCALE
+		re.MULTILINE
+		re.DOTALL
+		re.UNICODE
+		re.VERBOSE
+		
+		// Excep
+		raise Exception("${1:}")
+		
+		// Lambda
+		${1:f} = lambda x: ${2:x**2}
+		
+		// Magic
+		def __str__(self): return ""
+		def __bool__(self): return True
+		
+		def __getitem__(self, key):
+	return getattr(self, key)
+	# If item doesn't exist
+	# raise IndexError("")
+	
+	def __call__(self):
+	pass
+	
+	def __getattr__(self, name):
+	return object.__getattr__(self, name)
+	
+	def __setattr__(self, name, value):
+	object.__setattr__(self, name, value)
+	
+	def __repr__(self):
+	return '<%s.%s object at %s>' % (self.__class__.__module__, self.__class__.__name__, hex(id(self)))
+	
+	def __len__(self):
+	return 0
+	
+	def __contains__(self, key):
+	return False
+	*/
+
+{
+	"scope": "source.python",
+	"completions":
+	[
+		{"trigger": "{}", "contents": "{${1:k}:${2:v} for $1, $2 in ${3:the_dict.items()}}", "description": "Dictionary comprehension"}
+	]
+}

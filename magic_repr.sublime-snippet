@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[def __repr__(self):
+    return '<%s.%s object at %s>' % (self.__class__.__module__, self.__class__.__name__, hex(id(self)))]]></content>
+    <tabTrigger>magic</tabTrigger>
+    <scope>source.python</scope>
+    <description>__repr__</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[(${1:x}.${2:f}() for $1 in ${3:the_list})]]></content>
+    <tabTrigger>()</tabTrigger>
+    <scope>source.python</scope>
+    <description>Dictionary comprehension</description>
+</snippet>

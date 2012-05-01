@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[def __call__(self):
+    pass]]></content>
+    <tabTrigger>magic</tabTrigger>
+    <scope>source.python</scope>
+    <description>__call__</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[def __enter__(self):
+def __exit__(self, exc_type, exc_value, traceback):]]></content>
+    <tabTrigger>magic</tabTrigger>
+    <scope>source.python</scope>
+    <description>With context magic</description>
+</snippet>

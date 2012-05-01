@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[def __getslice__(self, i, j): pass
+def __setslice__(self, i, j, sequence): pass
+def __delslice__(self, i, j): pass]]></content>
+    <tabTrigger>magic</tabTrigger>
+    <scope>source.python</scope>
+    <description>Sequence magic</description>
+</snippet>
