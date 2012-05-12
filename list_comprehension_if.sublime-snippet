@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[[${1:x}.${2:f}() for $1 in ${3:the_list} if $1 == ${4:1}]]]></content>
+    <content><![CDATA[[${1:x.f()} for ${3:x} in ${4:the_list} if $1 == ${5:1}]]]></content>
     <tabTrigger>[]</tabTrigger>
     <scope>source.python</scope>
     <description>List comprehension with if</description>
