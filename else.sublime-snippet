@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[else:
+    
+]]></content>
+    <tabTrigger>else</tabTrigger>
+    <scope>source.python</scope>
+    <description>Else</description>
+</snippet>

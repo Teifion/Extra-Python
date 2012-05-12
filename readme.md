@@ -17,6 +17,8 @@ Snippet list
 
 **fordict**: For loop using dictionary.items() as the iterator
 
+**else**: Adds a colon and new line, it's just something I miss from my Textmate bundle
+
 **re**: A selection of common regex commands
 
 **query**: A pair of database query shortcuts using a cursor
